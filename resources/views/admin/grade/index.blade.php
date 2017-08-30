@@ -68,5 +68,6 @@
             $("#grades-table").DataTable({
             });
         });
+
     </script>
 @stop

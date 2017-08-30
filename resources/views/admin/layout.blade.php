@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+        "http://www.w3.org/TR/html4/loose.dtd">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <script src="{!!asset('/laravel-u-editor/ueditor.config.js')!!}"></script>
     <script src="{!!asset('/laravel-u-editor/ueditor.all.min.js')!!}"></script>
     <title>{{ config('blog.title') }} 管理员</title>
+    <!-- DataTables CSS -->
 
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +46,11 @@
 
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+  
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
 
 @yield('scripts')
 

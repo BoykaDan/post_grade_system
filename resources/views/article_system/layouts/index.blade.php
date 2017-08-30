@@ -22,6 +22,7 @@
                 {{--文章分类列表--}}
 
                 @if($gradesss)
+                    @if($gradesss->count())
                     所属的子分类：
                 @foreach ($gradesss as $gradess)
                         <div class="post-preview">
@@ -38,13 +39,15 @@
                         </div>
                         <hr>
                     @endforeach
+                    @endif
                 @endif
 
 
                  {{--文章列表 --}}
-                @if($gradesss)
-
+                @if($posts)
+                    @if($posts->count())
                 所属文章：
+                    @endif
                 @endif
                 @foreach ($posts as $post)
                     <div class="post-preview">

@@ -56,8 +56,9 @@
             父分类:
         </label>
         <div class="col-md-8">
-            <select name="father_grade[]" id="father_grade" class="form-control" multiple>
-                @foreach ($allGrades as $grade)
+            <select name="father_grade[]"  class="form-control">
+                {{--id="father_grade"--}}
+            @foreach ($allGrades as $grade)
                     <option @if (in_array($grade, $father_grade)) selected @endif
                     value="{{ $grade }}">
                         {{ $grade }}
