@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Http\Requests\GradeCreateRequest;
 use DB;
 class Grade extends Model
 {

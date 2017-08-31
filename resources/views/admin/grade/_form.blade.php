@@ -51,6 +51,7 @@
         <input type="text" class="form-control" name="layout" id="layout" value="{{ $layout }}">
     </div>
 </div>
+
     <div class="form-group">
         <label for="grades" class="col-md-3 control-label">
             父分类:

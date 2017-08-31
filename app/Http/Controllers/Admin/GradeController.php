@@ -16,7 +16,7 @@ class GradeController extends Controller
         'subtitle' => '',
         'meta_description' => '',
         'page_image' => '',
-        'layout' => 'article_system.layouts.index',
+        'layout'=>'article_system.layouts.index',
         'reverse_direction' => 0,
         'father_grade'=>[],
     ];

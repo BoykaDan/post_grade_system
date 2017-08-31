@@ -2,7 +2,6 @@
 
 namespace App\Http\Requests;
 
-use App\Http\Requests\Request;
 
 class GradeCreateRequest extends Request
 {
@@ -33,6 +32,7 @@ class GradeCreateRequest extends Request
     }
     public function gradeFillData()
     {
+
         return [
             'grade'=>$this->grade,
             'title' => $this->title,
@@ -44,5 +44,6 @@ class GradeCreateRequest extends Request
 
 
         ];
+        echo $this->layout;
     }
 }

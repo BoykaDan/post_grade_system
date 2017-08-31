@@ -37,7 +37,6 @@ class PostController extends Controller
     {
         $post = Post::create($request->postFillData());
         $post->syncGrades($request->get('grades', []));
-//        $post->syncFolder($request->get('new_folder'));
         return redirect()
             ->route('admin.post.index')
             ->withSuccess('新的文章创建成功.');
